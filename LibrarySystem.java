@@ -1,5 +1,3 @@
-package cia_2448542;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -127,7 +125,7 @@ class Periodical extends ReferenceBook {
 }
 
 
-public class PracticalTestBook {
+public class Main {
     
     private static ArrayList<Book> library = new ArrayList<>();
 
@@ -135,14 +133,14 @@ public class PracticalTestBook {
 
         Scanner scanner = new Scanner(System.in);
 
-        library.add(new ReferenceBook(1, "Introduction to Algorithms", "Thomas H. Cormen", 4));
-        library.add(new FictionBook(2, "Coraline", "Neil Gaiman", "Fantasy"));
-        library.add(new Periodical(3, "National Geographic", "Various", 12, "Monthly"));
-        library.add(new ReferenceBook(4, "Database System Concepts", "Abraham Silberschatz", 7));
-        library.add(new ReferenceBook(5, "Artificial Intelligence: A Modern Approach", "Stuart Russell", 4));
-        library.add(new FictionBook(6, "The Hunger Games", "Suzanne Collins", "Dystopian"));
-        library.add(new FictionBook(7, "Divergent", "Veronica Roth", "Dystopian, Science Fiction"));
-        library.add(new Periodical(8, "The Economist", "Various", 45, "Weekly"));
+        library.add(new ReferenceBook(1, "BOOK1", "Robin", 7));
+        library.add(new FictionBook(2, "Book2", "Rajesh", "thriller"));
+        library.add(new Periodical(3, "Boook3", "Thomas", 12, "Monthly"));
+        library.add(new ReferenceBook(4, "Book4", "Asha", 7));
+        library.add(new ReferenceBook(5, "Book5", "Angela", 4));
+        library.add(new FictionBook(6, "Book6", "Hannah", "Mythology"));
+        library.add(new FictionBook(7, "Book7", "Aksa", "Monthly"));
+        library.add(new Periodical(8, "Book7", "David", 45, "Monthly"));
 
         while (true) {
             System.out.println("\nLibrary Management System");
